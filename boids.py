@@ -3,9 +3,6 @@ import numpy as np
 from numba import cuda
 import math
 
-import pygame
-import cv2
-
 # Parameters for boids
 mode = 'pygame' # 'pygame' or 'video'
 fps = 60
